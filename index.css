@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding-top: 5px;
+}
+header {
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-family: "Poppins", sans-serif;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: xx-large;
+  padding-left: 15px;
+}
+nav a {
+  font-size: large;
+}
+nav a::after {
+  content: "";
+  padding: 5px;
+  border-right: 1px solid black;
+}
+nav a:hover {
+  border-bottom: 2px sloid grey;
+}
+.mid-contant {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+  width: 50%;
+  justify-content: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.main-pic {
+  width: 300px;
+  border-radius: 50%;
+}
+.mid-contant-one-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: red;
+  animation: mymove 5s infinite;
+}
+.mid-contant-two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.icons {
+  font-size: 35px;
+  text-align: left;
+}
+.mid-contant-two h1 {
+  font-size: 75px;
+  font-family: "Roboto", sans-serif;
+}
+.mid-contant-two h1,
+p,
+h3 {
+  text-align: left;
+}
+.mid-contant-three {
+  position: absolute;
+  display: flex;
+  left: 0;
+}
+.mid-contant-three i {
+  padding: 15px;
+  font-size: 35px;
+}
+.mid-contant-three h3 {
+  padding-right: 10px;
+  margin-left: 50px;
+}
+.mid-contant-three h3::before {
+  content: "";
+  padding: 5px;
+  border-left: 1px solid black;
+}
+.bxl-html5 {
+  color: orangered;
+}
+.bxl-css3 {
+  color: rgb(0, 128, 255);
+}
+.bxl-javascript {
+  color: yellow;
+  border-radius: 5px;
+}
+.bxl-tailwind-css {
+  color: rgb(0, 187, 255);
+}
+.bxl-react {
+  color: rgb(0, 242, 255);
+}
+.bxl-typescript {
+  color: rgb(0, 128, 255);
+}
